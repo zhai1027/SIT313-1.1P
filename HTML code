@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+
+<html>
+    <head>       
+        <style>
+            li{width:195px;height:98px;margin: 10px; float:left; list-style-type:none}
+            ul{width: 500px; height:500px;}
+
+            .Font_Colour {
+                font-style:italic;
+                color: cyan;
+                font-size: 50px;
+                margin-top: 50px;
+                margin-bottom: 50px;
+            }
+
+            .container {
+                position:sticky;         
+            }
+
+            .middle {
+            transition: .5s ease;
+            opacity: 0;
+            position: relative;
+            top: 10%;
+            left: 50%;
+            transform: translate(-50%, -50%);   
+            -ms-transform: translate(-50%, -50%);  
+            }
+
+            .container:hover .middle {
+            opacity: 0.8;
+            }
+
+            .text {
+            position:relative;       
+            transform: translate(0%, -150%);  
+            background-color: #000000;
+            color: white;
+            font-size: 45px;
+            padding: 10px 500px;
+            text-align: left;
+            }
+
+            .text_style{
+                font-size: 50px;
+                color: rgb(57, 34, 119);                
+            }
+
+            .text_style_NEW{
+                font-size: 50px;
+                color: rgb(41, 207, 19);               
+            }
+
+            .image_set{ width: 5%; height: auto; max-width: 5%; display: block; }
+
+            .main{
+                width: auto;
+                display: block;
+                margin: auto;
+            }
+
+            .TEMP{
+                width: 100%;
+                margin: auto;
+                margin-top: 20px;
+                margin-bottom: 200px;
+                margin-left:20%;
+            }
+
+            .TEMP img{
+                width: 400px;
+                height: 400px;
+                margin: auto;
+                display: inline-block;
+                position: relative;
+            }
+        </style>
+    </head>    
+    
+    <body>
+        <div class="main">
+            <div class="Font_Colour">
+                <h style="margin-left: 20px;"> About </h> <h style="margin-left: 70px;"> Work </h> <h style="margin-left: 70px;"> Contact </h>
+            </div>
+
+            <!--<div style="margin-left: -10px; margin-right: -10px">
+                <img src="Header image.png" alt="Deakin University" height="1500" width="100%"> </img>
+            </div> -->
+
+
+            <div class="container">
+                <img src="Header image.png" alt="Deakin University" height="550" width="100%">
+                <div class="middle">
+                <div class="text">Hey, I'm Ziyan Zhai, the student who is doing SIT313. Nice to see you!</div>
+                </div>
+            </div>
+
+            
+            <div class="text_style_NEW" style= "text-align: center;">
+                <img src="ProfilePhoto.jpg" alt="Profile Photo" height="300" style="border-radius: 30px;">
+                <div>
+                    <p>I am an international student who is studying at Deakin University;</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; _____________________________________&nbsp;&nbsp;&nbsp;</p>
+
+                    <h2>Here is what I've done so far</h2>
+                </div>
+            </div>
+
+        <div style="margin: auto;width:1200px" >
+
+            <div style="height: 380px;">
+                <img src="Project1.jpg" alt="Project1 for step4" height="300" width="300" style="border-radius: 30px; float:left;display: block;position: relative; margin-left: 50px">
+                
+                <div class="text_style" style="display: block; float:right; font-size: 50px; margin-top: 50px; width: auto; margin-right: 300px;">
+                    <p>Contactless sanitiser</p>
+                </div>            
+            </div>
+
+            <div style="height: 380px;">
+                <img src="Project2.jpg" alt="Project1 for step4" height="300" width="300" style="border-radius: 30px; float:left;display: block;position: relative; margin-left: 50px">
+
+                <div class="text_style" style="display: block; float:right; font-size: 50px; margin-top: 50px; width: auto;margin-right: 300px;">
+                    <p>Door Alarm System</p>
+                </div>
+            </div>
+        </div>
+
+        <div style="margin-top: 100px">
+            <div class="text_style_NEW" style= "text-align: center;">
+                <p> &nbsp;&nbsp;&nbsp; _____________________________________&nbsp;&nbsp;&nbsp;</p>
+                <p> My photos:</p>
+            </div>
+        </div>
+
+        <div class="TEMP">
+            <div style="margin: auto;">
+                <img src='STEP5-1.jpg' height="280" width="280">
+                <img src='STEP5-2.jpg' height="280" width="280">
+                <img src='STEP5-3.jpg' height="280" width="280">
+                <img src='STEP5-4.jpg' height="280" width="280">
+            </div>
+        </div>
+    </div>
+    </body>
+</html>
+
+<!--
+        li{width:195px;height:98px;margin: 10px; float:left; list-style-type:none}
+        ul{width:800px; height:200px;}
+
+        <div>
+            <ul style="margin-left: 500px">
+                <li> <img src="STEP5-1.jpg" height="400" width="500"></li>
+                <li> <img src="STEP5-2.jpg" height="400" width="500"></li>
+                <li> <img src="STEP5-3.jpg" height="400" width="500"></li>
+                <li> <img src="STEP5-4.jpg" height="400" width="500"></li>
+            </ul>
+        </div>   
+                <table style="margin-left: 500px;">
+            <tr>
+                <img src="STEP5-1.jpg" height="300" width="300">
+                <img src="STEP5-2.jpg" height="300" width="300">
+                <img src="STEP5-3.jpg" height="300" width="300">
+                <img src="STEP5-4.jpg" height="300" width="300">
+            </tr> 
+-->
